@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Web studio</title>
 	</head>
 	<body>
@@ -11,15 +16,18 @@
 		<header>
 			<!-- Навигация по странице -->
 			<nav>
-				<a href="/" lang="en">Web studio</a>
-				<ul>
+				<a href="/" lang="en" class="logo">
+					Web
+					<span class="logo-end">Studio</span>
+				</a>
+				<ul class="nav-links">
 					<li><a href="./index.html">Студия</a></li>
-					<li><a href="./portfolio.html">Портфолио</a></li>
-					<li><a href="./contacts">Контакты</a></li>
+					<li><a href="./portfolio.html" class="link-active">Портфолио</a></li>
+					<li><a href="/">Контакты</a></li>
 				</ul>
 			</nav>
 			<!--Контакты-->
-			<ul>
+			<ul class="contacts">
 				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
@@ -122,12 +130,15 @@
 		</main>
 		<!--Подвал-->
 		<footer>
-			<a href="/" lang="en">Web studio</a>
+			<a href="/" lang="en" class="logo">
+				Web
+				<span class="logo-endfoot">Studio</span>
+			</a>
 			<address>
-				<ul>
-					<li>г. Киев, пр-т Леси Украинки, 26</li>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<ul class="address">
+					<li class="address-first">г. Киев, пр-т Леси Украинки, 26</li>
+					<li>info@devstudio.com</li>
+					<li>+38 096 111 11 11</li>
 				</ul>
 			</address>
 		</footer>
