@@ -48,7 +48,9 @@ header ul {
     list-style: none;
     display: inline-block;
 }
-.nav-links a:hover, .nav-links a:focus, .nav-links a.link-active {
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a.link-active {
 color: #2196F3;
 }
 .contacts a {
@@ -62,7 +64,8 @@ color: #2196F3;
     list-style: none;
     display: inline-block;
 }
-.contacts a:hover, .contacts a:focus {
+.contacts a:hover,
+.contacts a:focus {
     color: #2196F3;
 }
 
@@ -176,13 +179,20 @@ footer {
 .logo-endfoot {
     color: #FFFFFF;
 }
-.address {
+.contacts-foot {
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
     list-style: none;
 }
-.address-first {
+.contact-first {
     color: #FFFFFF;
+}
+.contacts-foot a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.contacts-foot a:hover,
+.contacts-foot a:focus {
+    color: #2196F3;
 }
 
 /* Стили портфолио */
