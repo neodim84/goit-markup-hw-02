@@ -20,7 +20,7 @@ header {
 }
 header nav {
     display: inline-block;
-}
+}   
 header ul {
     display: inline-block;
 }
@@ -31,6 +31,7 @@ header ul {
         line-height: 1.19;
         color: #2196F3;
         text-decoration: none;
+        word-spacing: -.24em;
 }
 .logo-end {
     color: #000000;
@@ -249,13 +250,16 @@ footer {
     display: grid;
     grid-template-columns: 370px 370px 370px;
     text-align: left;
+    background-color: #FFFFFF;
 }
 .projects a {
     text-decoration: none;
     font-size: 16px;
     line-height: 1.88;
     color: #757575;
-    align-items: center;
+}
+.project-card {
+    border: 1px solid #EEEEEE;
 }
 .project-title {
         font-weight: 700;
