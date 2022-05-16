@@ -13,8 +13,10 @@
 	</head>
 	<body>
 		<!--Шапка страницы-->
+
 		<header>
 			<!-- Навигация по странице -->
+
 			<nav>
 				<a href="/" lang="en" class="logo">
 					Web
@@ -26,35 +28,39 @@
 					<li><a href="/">Контакты</a></li>
 				</ul>
 			</nav>
+
 			<!--Контакты-->
+
 			<ul class="contacts">
 				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
 		</header>
+
 		<!--Основная часть-->
+
 		<main>
-			<section>
+			<section class="portfolio">
 				<h1 hidden>Портфолио</h1>
-				<ul>
-					<li><button type="button">Все</button></li>
-					<li><button type="button">Веб-сайты</button></li>
-					<li><button type="button">Приложения</button></li>
-					<li><button type="button">Дизайн</button></li>
-					<li><button type="button">Маркетинг</button></li>
+				<ul class="filter">
+					<li><button type="button" class="btn-all">Все</button></li>
+					<li><button type="button" class="btn-web">Веб-сайты</button></li>
+					<li><button type="button" class="btn-app">Приложения</button></li>
+					<li><button type="button" class="btn-des">Дизайн</button></li>
+					<li><button type="button" class="btn-mar">Маркетинг</button></li>
 				</ul>
-				<ul>
+				<ul class="projects">
 					<li>
 						<a href="/">
 							<img src="./images/portfolio1.jpg" alt="Ноутбук со страницей сайта" width="370" />
-							<h2>Технокряк</h2>
+							<h2 class="project-title">Технокряк</h2>
 							<p>Веб-сайт</p>
 						</a>
 					</li>
 					<li>
 						<a href="/">
 							<img src="./images/portfolio2.jpg" alt="Постер команд" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Постер
 								<span lang="en">New Orlean vs Golden Star</span>
 							</h2>
@@ -64,7 +70,7 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio3.jpg" alt="Лого ресторана" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Ресторан
 								<span lang="en">Seafood</span>
 							</h2>
@@ -74,7 +80,7 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio4.jpg" alt="Наушники" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Проект
 								<span lang="en">Prime</span>
 							</h2>
@@ -84,7 +90,7 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio5.jpg" alt="Две коробки" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Проект
 								<span lang="en">Boxes</span>
 							</h2>
@@ -94,14 +100,14 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio6.jpg" alt="Монитор со страницей сайта" width="370" />
-							<h2 lang="en">Inspiration has no Borders</h2>
+							<h2 class="project-title" lang="en">Inspiration has no Borders</h2>
 							<p>Веб-сайт</p>
 						</a>
 					</li>
 					<li>
 						<a href="/">
 							<img src="./images/portfolio7.jpg" alt="Разворот книги" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Издание
 								<span lang="en">Limited Edition</span>
 							</h2>
@@ -111,7 +117,7 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio8.jpg" alt="Бирка" width="370" />
-							<h2>
+							<h2 class="project-title">
 								Проект
 								<span lang="en">Lab</span>
 							</h2>
@@ -121,14 +127,16 @@
 					<li>
 						<a href="/">
 							<img src="./images/portfolio9.jpg" alt="Ноутбук с приложением" width="370" />
-							<h2 lang="en">Growing Business</h2>
+							<h2 class="project-title" lang="en">Growing Business</h2>
 							<p>Приложение</p>
 						</a>
 					</li>
 				</ul>
 			</section>
 		</main>
+
 		<!--Подвал-->
+
 		<footer>
 			<a href="/" lang="en" class="logo">
 				Web
